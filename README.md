@@ -1,0 +1,2 @@
+# Quick Maths
+Träna på huvudräkning med detta program som anpassar sig efter dina svar! Varje kombination av operander har en position i en flerdimensionell array, där information om bland annat svarstid lagras. Detta används sedan för att öka sannolikheten att svåra uttryck återupprepas.

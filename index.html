@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stats">
+        <div class="stat">Totalt: <span id="stat_total"></span></div>
+        <div class="stat">Antal korrekt: <span id="stat_correct"></span> (<span id="stat_ratio"></span> %)</div>
+    </div>
+    <div class="question">
+        <p id="question">Tryck på enter för att starta</p>
+    </div>
+    <input type="text" class="input" id="input" placeholder="...">
+    <script src="expression.js"></script>
+    <script src="brain.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
