@@ -11,6 +11,13 @@ let CURRENT_EXPRESSION, CLOCK
 
 input.onkeyup = (event) => (event.keyCode == 13) ? evaluate() : ''
 
+function randomExpression(MAX_NUMBER) {
+    const left = Math.ceil(Math.random() * MAX_NUMBER)
+    const right = Math.ceil(Math.random() * MAX_NUMBER)
+
+    return new Addition(left, right)
+}
+
 function evaluate() {
     if (CURRENT_EXPRESSION) {
         if (input.value == '') return

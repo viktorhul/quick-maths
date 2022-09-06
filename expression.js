@@ -30,10 +30,3 @@ class Subtraction extends Expression {
         return this.left - this.right
     }
 }
-
-function randomExpression(MAX_NUMBER) {
-    const left = Math.ceil(Math.random() * MAX_NUMBER)
-    const right = Math.ceil(Math.random() * MAX_NUMBER)
-
-    return new Addition(left, right)
-}
