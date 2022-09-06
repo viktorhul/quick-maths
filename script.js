@@ -20,8 +20,6 @@ function evaluate() {
 
         brain.learn(CURRENT_EXPRESSION, timeElapsed, isCorrect)
 
-        console.log(brain)
-
         input.value = ''
     }
 
