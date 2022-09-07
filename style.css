@@ -29,6 +29,17 @@ body {
     padding: 10px;
 }
 
+button.stat {
+    border: none;
+    outline: none;
+    background: rgb(37, 85, 244) !important;
+}
+
+button.stat:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
 .question {
     flex: 4;
     display: flex;
